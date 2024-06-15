@@ -16,22 +16,31 @@ cd cnf-difficulty-predictor
 
 Assurez-vous que le fichier logistic_model.pkl est présent dans le répertoire principal. Ce fichier contient le modèle de régression logistique entraîné.
 
-Utilisation
-Ligne de commande
+Utilisation :
+
+
+
+1-Ligne de commande
+
+
 Vous pouvez utiliser l'outil directement en ligne de commande pour prédire la difficulté d'une instance CNF :
 
-python predict_cnf_difficulty.py path/to/your/cnf/file.cnf
+python3 predict_cnf_difficulty.py path/to/your/cnf/file.cnf
 
 
 
-Interface Graphique
+2-Interface Graphique
+
+
+
 Pour une utilisation plus conviviale, vous pouvez lancer l'interface graphique :
 
 
 
 
-Lancer l'interface graphique :
-python interface.py
-Utilisation de l'interface graphique :
-Cliquez sur le bouton "Ouvrir un fichier CNF" pour charger votre fichier CNF.
-Les métriques de l'instance CNF et la difficulté prédite seront affichées dans la fenêtre.
+Lancer l'interface graphique : python3 interface.py
+
+-Cliquez sur le bouton "Ouvrir un fichier CNF" pour charger votre fichier CNF.
+
+
+-Les métriques de l'instance CNF et la difficulté prédite seront affichées dans la fenêtre.
