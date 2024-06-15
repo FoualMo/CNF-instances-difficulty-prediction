@@ -5,7 +5,7 @@ Le CNF Difficulty Predictor est un outil qui permet de prédire la difficulté d
 Installation
 Clonez le dépôt :
 
-git clone https://github.com/FoualMo/cnf-difficulty-predictor.git
+git clone https://github.com/FoualMo/CNF-instances-difficulty-prediction.git
 cd cnf-difficulty-predictor
 
 Assurez-vous que le fichier logistic_model.pkl est présent dans le répertoire principal. Ce fichier contient le modèle de régression logistique entraîné.
