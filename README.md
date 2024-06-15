@@ -12,7 +12,7 @@ git clone https://github.com/FoualMo/CNF-instances-difficulty-prediction.git
 
 
 
-cd cnf-difficulty-predictor
+cd cnf-difficulty-predictor/scripts
 
 Assurez-vous que le fichier logistic_model.pkl est présent dans le répertoire principal. Ce fichier contient le modèle de régression logistique entraîné.
 
@@ -25,7 +25,7 @@ Utilisation :
 
 Vous pouvez utiliser l'outil directement en ligne de commande pour prédire la difficulté d'une instance CNF :
 
-python3 predict_cnf_difficulty.py path/to/your/cnf/file.cnf
+python3 predict_difficulty.py ../modele/logistic_model.pkl fichier.cnf
 
 
 
