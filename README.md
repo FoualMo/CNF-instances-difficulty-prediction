@@ -1,4 +1,3 @@
-CNF Difficulty Predictor
 Description
 Le CNF Difficulty Predictor est un outil qui permet de prédire la difficulté des instances CNF en utilisant un modèle de régression logistique. L'outil utilise une interface graphique pour permettre aux utilisateurs de charger des fichiers CNF, calculer diverses métriques, et afficher la difficulté prédite de l'instance CNF.
 
